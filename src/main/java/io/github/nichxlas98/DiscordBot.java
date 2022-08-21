@@ -16,13 +16,12 @@ public class DiscordBot {
 
     public static void main(String[] args) throws LoginException, InterruptedException {
 
+        // UhCore Discord Bot by @nichxlas98
         JDA bot = JDABuilder.createDefault("MTAxMDk2OTE1NjU0NTQyOTYxNA.GMHWRc.4FW9j_44DLRshx0WI3dKDWTo6r7HDd128UZqKM")
                 .setActivity(Activity.watching("TBA"))
                 .addEventListeners(new suggestionCommand())
                 .addEventListeners(new scriptCommand(), new ModalListeners())
                 .build().awaitReady();
-
-
 
 
         Guild guild = bot.getGuildById("1010218336346452158");
