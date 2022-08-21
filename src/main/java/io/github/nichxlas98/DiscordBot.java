@@ -18,7 +18,7 @@ public class DiscordBot {
 
         // UhCore Discord Bot by @nichxlas98
         JDA bot = JDABuilder.createDefault("MTAxMDk2OTE1NjU0NTQyOTYxNA.GMHWRc.4FW9j_44DLRshx0WI3dKDWTo6r7HDd128UZqKM")
-                .setActivity(Activity.watching("TBA"))
+                .setActivity(Activity.watching("UhCore's Development."))
                 .addEventListeners(new suggestionCommand())
                 .addEventListeners(new scriptCommand(), new ModalListeners())
                 .build().awaitReady();
