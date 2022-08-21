@@ -1,1 +1,1 @@
-Worker: sh target/bin/uhcore-discord-bot
+Worker: sh target/bin/Uhcore-discord-bot
