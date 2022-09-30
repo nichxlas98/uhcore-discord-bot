@@ -17,7 +17,7 @@ public class DiscordBot {
     public static void main(String[] args) throws LoginException, InterruptedException {
 
         // UhCore Discord Bot by @nichxlas98
-        JDA bot = JDABuilder.createDefault("MTAxMDk2OTE1NjU0NTQyOTYxNA.GMHWRc.4FW9j_44DLRshx0WI3dKDWTo6r7HDd128UZqKM")
+        JDA bot = JDABuilder.createDefault("TOKEN")
                 .setActivity(Activity.watching("UhCore's Development."))
                 .addEventListeners(new suggestionCommand())
                 .addEventListeners(new scriptCommand(), new ModalListeners())
